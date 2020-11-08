@@ -50,7 +50,7 @@ ul {
 ul li {
     margin: 0 0 6px 0;
     padding: 0 0 4px 5px;
-    line-height: 1em;
+    line-height: 1.5em;
 }
 
 .header {
@@ -84,7 +84,7 @@ ul li {
     text-decoration: none;
 }
 
-.logo-text {
+.logo-text h2 {
     font-size: 0.9em;
     padding: 4px;
     color: #999;
