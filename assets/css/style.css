@@ -352,3 +352,126 @@ td img {
 .footer p {
     padding: 0 0 10px 0;
 }
+
+/*CSS mobile*/
+
+@media only screen
+and (min-device-width: 320px)
+and (max-device-width: 568px) {
+    .header {
+        background-color: #49945a;
+        min-width: 100%;
+        height: 20%;
+        text-align: center;
+    }
+
+    .logo {
+        width: 100%;
+    }
+
+    .site-content {
+        width: 100%;
+    }
+
+    .menuBar {
+        width: 100%;
+        height: 100%;
+    }
+
+    .content {
+        width: 100%;
+        text-align: center;
+    }
+
+    .site-content {
+        width: 100%;
+        text-align: center;
+    }
+
+    .sitebar-container {
+        display: none;
+    }
+
+    .footer {
+        display: none;
+    }
+
+    ul.menu {
+        float: none;
+    }
+
+    ul.menu li {
+        margin: 0;
+        padding: 0;
+        float: none;
+    }
+
+    .logo h1 {
+        font: normal 235% 'century gothic', arial, sans-serif;
+    }
+
+    .logo h1 {
+        font: normal 200% 'century gothic', arial, sans-serif;
+        color: white;
+    }
+
+    .content h1, h2 {
+        font: normal 110% 'century gothic', arial;
+    }
+
+    .films-block img {
+        width: 43%;
+    }
+
+    .posts-content p {
+        line-height: 1.5em;
+        padding: 3%;
+        text-align: left;
+    }
+
+    .posts p {
+        font-size: 120%;
+    }
+
+    /* films page*/
+    .info-film {
+        float: none;
+        height: 100%;
+    }
+
+    .info-film img {
+        width: 90%;
+        margin-bottom: 5%;
+    }
+
+    .button {
+        float: none;
+    }
+
+    .send {
+        margin-bottom: 4%;
+        width: 95%;
+    }
+
+    .send input[type="text"], textarea {
+        border: solid 1px #c3c3c3;
+        margin-bottom: 2%;
+        width: 90%;
+    }
+
+    .send input[type="text"] {
+        width: 90%;
+    }
+
+    .send textarea {
+        width: 95%;
+    }
+
+    .send input[type="submit"] {
+        background-color: #7268ad;
+        padding: 3%;
+        color: white;
+        border-radius: 5px;
+        width: 90%;
+    }
+}
